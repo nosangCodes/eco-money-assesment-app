@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "eco-money-assesment-app",
-    "slug": "eco-money-assesment-app",
+    "name": "Art Gallery",
+    "slug": "art-gallery",
+    "description": "Created by Nosang Subba",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +10,18 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nosang.artgallery",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nosang.artgallery"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +42,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f1e5a68a-3b14-4e49-b81f-e48e0ef81d5f"
+      }
+    },
+    "owner": "nosang"
   }
 }

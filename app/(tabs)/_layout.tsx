@@ -20,8 +20,7 @@ export default function TabLayout() {
         tabBarButton: HapticTab,
         tabBarBackground: TabBarBackground,
         tabBarStyle: {
-          backgroundColor: "white",
-          paddingBottom: 10, // Add padding at the bottom
+          paddingBottom: 10,
           height: 60,
         },
         sceneStyle: {

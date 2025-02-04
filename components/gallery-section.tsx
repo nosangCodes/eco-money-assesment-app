@@ -86,6 +86,16 @@ export default function GallerySection() {
         source={require("@/assets/placeholder-images/8.jpg")}
         transition={1000}
       />
+      <Image
+        style={styles.image}
+        source={require("@/assets/placeholder-images/7.jpg")}
+        transition={1000}
+      />
+      <Image
+        style={styles.image}
+        source={require("@/assets/placeholder-images/8.jpg")}
+        transition={1000}
+      />
     </ThemedView>
   );
 }
