@@ -1,5 +1,9 @@
 # Welcome to your Expo app 👋
 
+
+## App url
+[https://expo.dev/accounts/nosang/projects/art-gallery/builds/ea978cec-a5c8-4bd9-8f1a-1a1c65e3f9f3](https://expo.dev/accounts/nosang/projects/art-gallery/builds/ea978cec-a5c8-4bd9-8f1a-1a1c65e3f9f3)
+
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
